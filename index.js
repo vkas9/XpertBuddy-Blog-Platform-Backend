@@ -18,7 +18,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: ["http://localhost:5173","https://expert-client.onrender.com"],
+    origin: ["http://localhost:5173","https://xpertbuddy.vikas.engineer","https://expert-client.onrender.com"],
     credentials: true,
   })
 );
