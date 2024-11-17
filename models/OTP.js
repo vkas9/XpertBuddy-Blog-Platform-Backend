@@ -20,7 +20,7 @@ const OtpSchema = new mongoose.Schema({
 
 const sendMail = async (email, otp) => {
   try {
-    const mail = await mailSender(email, " MentorMee Verification Email", `Your OTP is: ${otp}`);
+    const mail = await mailSender(email, "XpertBuddy Verification Email", `Your OTP is: ${otp}`);
 
   } catch (error) {
     console.log("Something went wrong while sending mail");
